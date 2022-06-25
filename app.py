@@ -7,7 +7,8 @@ from sklearn.model_selection import train_test_split
 import streamlit as st
 
 #to create the heading
-st.header("unamed-XXXXXXXXXx")
+st. set_page_config(layout="wide")
+st.header("Election Party Pradiction")
 
 def data_preprocessing(path):
     data = pd.read_excel(path, sheet_name="Election_Dataset_Two Classes")
