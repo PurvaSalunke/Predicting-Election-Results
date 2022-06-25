@@ -55,7 +55,7 @@ if st.button("Submit"):
                    european_integration, political_knowledege,
                    gender]
     print(input_array)
-    path = "C:/Users/admin/PycharmProjects/DHL_WebApp/Election_Data.xlsx"
+    path = "https://github.com/PurvaSalunke/Predicting-Election-Results/blob/main/Election_Data.xlsx"
     load_data = data_preprocessing(path)
     print(load_data.head())
     get_model = model_predict(load_data)
