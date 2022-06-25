@@ -8,7 +8,7 @@ import streamlit as st
 
 #to create the heading
 st. set_page_config(layout="wide")
-st.markdown("<h1 style='text-align: center; color: red;'>Election Party Prediction </h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Election Party Prediction </h1>", unsafe_allow_html=True)
 
 def data_preprocessing(path):
     data = pd.read_excel(path, sheet_name="Election_Dataset_Two Classes")
